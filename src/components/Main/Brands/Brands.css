@@ -1,0 +1,42 @@
+.brands-list {
+  height: 80px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: black;
+}
+
+.brands-list img {
+  width: 100px;
+  height: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .brands-list {
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+  }
+
+  .brands-list img {
+    width: 10px;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .brands-list {
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+  }
+
+  .brands-list img {
+    width: 40px;
+    height: auto;
+  }
+}
